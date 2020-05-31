@@ -4,7 +4,7 @@ PROJECT(DesignPattern)
 
 ADD_SUBDIRECTORY(StartegyPattern)
 ADD_SUBDIRECTORY(FactoryMethodPattern)
-
+ADD_SUBDIRECTORY(SingletonPattern)
 
 #ADD_EXECUTABLE(${PROJECT_NAME}    main.cpp)
 
