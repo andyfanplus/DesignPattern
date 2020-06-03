@@ -1,0 +1,12 @@
+PROJECT(AbstractFactoryPattern)
+
+
+set(CMAKE_INCLUDE_CURRENT_DIR ON) 
+
+FILE(GLOB FILES "./*.h" "./*.cpp") 
+
+ADD_EXECUTABLE(${PROJECT_NAME}   
+${FILES}
+)
+ 
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} )
