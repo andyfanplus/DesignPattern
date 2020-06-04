@@ -12,7 +12,8 @@ PROJECT(FactoryPattern)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON) 
 ADD_EXECUTABLE(${PROJECT_NAME}   
-FactoryMethodPattern.cpp
+FactoryPattern.cpp
+ SimpleFactory.cpp SimpleFactory.h
  Circle.cpp Rectangle.cpp  Triangle.cpp
  Circle.h Rectangle.h Triangle.h  Shape.h
 )
